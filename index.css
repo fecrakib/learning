@@ -150,11 +150,12 @@ left: 123px;
 top: 868px;
 }
 .developer-right{
-    position: absolute;
+position: absolute;
 width: 559px;
 height: 377px;
 left: 691px;
 top: 952px;
+
 /* background-color: green; */
 }
 .developer-contain{
@@ -171,25 +172,88 @@ font-size: 24px;
     color: #023047;
     margin-top: 40px;
 }
+/* course section start */
 .courses-section{
     position: absolute;
 width: 1500px;
-height: 785px;
+height: 600px;
 left: 0px;
 top: 1514px;
 background: linear-gradient(180deg, #6F7DFB 0%, #26308C 100%);
 }
+.course-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+/* width: 526px;
+height: 418px; */
+}
+.course-title{
+    text-align: center;
+    /* margin-bottom: 50px; */
+}
+.course-card{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+}
+.course-info{
+    font-weight: 900;
+    font-size: 30px;
+    color: #023047;
+}
+#btn-course{
+   position: relative;
+   left: 1200px;
+   top: 30px;
+}
+/* app section */
 .app{
     position: absolute;
     width: 1070px;
     height: 262px;
     left: 140px;
-    top: 2423px; 
+    top: 2300px; 
+    text-align: center;
+}
+.app-description{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.app-buttoun{
+    width: 310px;
+height: 100px;
+background: #000000;
+padding: 20px 31px;
+color: #FFFFFF;
+font-weight: 400;
+font-size: 16px;
+align-items: center;
+}
+.app-buttoun span{
+position: relative;
+bottom: 20px;
+left: 4px;
+
+
+}
+.app h2{
+    font-weight: 900;
+font-size: 60px;
+color: #023047;
+margin-bottom: 15px;
+}
+.app p{
+    font-weight: 400;
+    font-size: 16px;  
+    color: #023047;
 }
 .footer-container{
     position: absolute;
 width: 1500px;
-height: 409px;
+height: 380px;
 left: 0px;
 top: 2761px;
 
@@ -199,4 +263,47 @@ background: #070917;
     position: relative;
     left: 290px;
     bottom:  70px;
+}
+.developer-descrioption{
+    margin-bottom: 50px;
+}
+.links-container{
+    display: flex;
+    justify-content: space-around;
+}
+.links-container{
+    text-decoration: none;
+}
+.links ul li a{
+    text-decoration: none;
+    font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+
+
+
+}
+.links h3{
+    ont-weight: 700;
+    font-size: 18px; 
+    color: #DA722C;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.socal p{
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 16px;
+margin-bottom: 20px;
+}
+.fb{
+    position: relative;
+    bottom: 8px;
+}
+.submite-btn{
+    background: #023047;
+    border-radius: 8px; 
+    color: #FFFFFF;
+    font-weight: 400;
+font-size: 16px;
 }
